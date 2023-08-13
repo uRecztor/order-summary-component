@@ -36,7 +36,7 @@ main {
     flex-direction: column;
     align-items: center;
     height: 551px;
-    width: 25em;
+    width: 22em;
     background-color: white;
     padding: 0px 0px 20px 0px;
     border-radius: 20px;
@@ -67,7 +67,7 @@ div {
     display: flex;
     align-items: center;
     background-color: var(--cor03);
-    width: 22.5em;
+    width: 20em;
     height: 5em;
     border-radius: 15px;
     margin-top: 22px;
@@ -81,12 +81,12 @@ div > article > span {
 }
 
 article > span#plan {
-    font: normal 900 17px 'Red Hat Display', sans-serif;
+    font: normal 900 1.1em 'Red Hat Display', sans-serif;
     color: var(--cor05);
 }
 
 article > span {
-    font: normal 500 17px 'Red Hat Display', sans-serif;
+    font: normal 500 1.1em 'Red Hat Display', sans-serif;
     color: var(--cor04);
 }
 
@@ -97,8 +97,8 @@ div > img {
 
         /* Change */
 div > input {
-    font: normal 700 14px 'Red Hat Display', sans-serif;
-    margin-left: 90px;
+    font: normal 700 .9em 'Red Hat Display', sans-serif;
+    margin-left: 4.3em;
     border: none;
     background-color: var(--cor03);
     color: hsl(245, 82%, 30%);
@@ -112,7 +112,7 @@ div > input:hover {
 }
 
         /* Payment */
-form {
+form#btn {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,23 +120,23 @@ form {
     gap: 30px;
 }
 
-form > #pay {
+form#btn > #pay {
     font: normal 700 .9em 'Red Hat Display', sans-serif;
     color: var(--cor01);
     background-color: var(--cor02);
-    width: 24em;
+    width: 22em;
     height: 3.4em;
     border-radius: 10px;
     border: none;
     box-shadow: 0px 8px 35px -10px var(--cor02);
 }
 
-form > #pay:hover {
+form#btn > #pay:hover {
     background-color: hsl(245, 79%, 65%);
     cursor: pointer;
 }
 
-form > #cancel {
+form#btn > #cancel {
     font: normal 900 .9em 'Red Hat Display', sans-serif;
     border: none;
     padding-bottom: 10px;
@@ -145,6 +145,12 @@ form > #cancel {
     cursor: pointer;
 }
 
-form > #cancel:hover {
+form#btn > #cancel:hover {
     color: var(--cor05);
+}
+
+@media only screen and (min-width: 375px) {
+    main {
+        width: 22em;
+    }
 }
