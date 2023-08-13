@@ -35,8 +35,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 38em;
-    width: 27em;
+    height: 551px;
+    width: 25em;
     background-color: white;
     padding: 0px 0px 20px 0px;
     border-radius: 20px;
@@ -68,7 +68,7 @@ div {
     align-items: center;
     background-color: var(--cor03);
     width: 22.5em;
-    height: 6em;
+    height: 5em;
     border-radius: 15px;
     margin-top: 22px;
 }
