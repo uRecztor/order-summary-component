@@ -35,8 +35,8 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 36em;
-    width: 24em;
+    height: 38em;
+    width: 27em;
     background-color: white;
     padding: 0px 0px 20px 0px;
     border-radius: 20px;
@@ -68,7 +68,7 @@ div {
     align-items: center;
     background-color: var(--cor03);
     width: 22.5em;
-    height: 5em;
+    height: 6em;
     border-radius: 15px;
     margin-top: 22px;
 }
