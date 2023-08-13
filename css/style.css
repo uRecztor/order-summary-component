@@ -26,7 +26,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    background: var(--cor01) url(/images/pattern-background-desktop.svg) center top no-repeat fixed;
+    background: var(--cor01) url("../images/pattern-background-desktop.svg") center top no-repeat fixed;
     background-size: contain;
 }
 
